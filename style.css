@@ -8,11 +8,16 @@
     width: 200px;
     height: 100%;
     background: #3b5998;
+    left: -200px;
+    transition: all 500ms linear;
+}
+#sidebar.active{
+    left: 0;
 }
 #toggle {
     position: absolute;
-    left: 201px;
-    top: 20px;
+    left: 202px;
+    top: 5px;
     cursor: pointer;
 }
 #toggle span{
@@ -20,8 +25,8 @@
     width: 40px;
     text-align: center;
     font-size: 30px;
-    background: #3b5998;
     color: #FFF;
+    background: #3b5998;
 }
 #photo{
     margin-top: 60px;
